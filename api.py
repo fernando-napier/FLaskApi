@@ -5,7 +5,7 @@ from app.hello_world import HelloWorld
 app = Flask(__name__)
 api = Api(app)
 
-api.add_resource(HelloWorld, '/hello_world', '/', '/hello')
+api.add_resource(HelloWorld, '/hello_world', '/', '/hello', '/helloworld')
 
 if __name__ == '__main__':
     app.run(debug=True)
