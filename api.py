@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restful import Resource, Api
-from app.hello_world import HelloWorld
+from app.HelloWorld.hello_world import HelloWorld
 
 app = Flask(__name__)
 api = Api(app)
